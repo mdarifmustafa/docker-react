@@ -16,4 +16,4 @@ deploy:
         branch: master
     access_key_id: $AWS_ELASTICBEANSTALK_DOCKER_ACCESS_KEY
     secret_access_key: 
-        secure: "$AWS_ELASTICBEANSTALK_DOCKER_SECRET_KEY"
+        secure: $AWS_ELASTICBEANSTALK_DOCKER_SECRET_KEY
